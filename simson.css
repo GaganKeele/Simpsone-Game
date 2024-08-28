@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    width: 100vw;
+   align-items: center;
+   height: 100vh;
+   flex-wrap: nowrap;
+   flex-direction: column;
+}
+.btn{
+    width: 15vw;
+    height: 15vw;
+    border-radius:100px;
+    margin: 1.5vw;
+    box-shadow: 12px 24px 50px black;
+    
+}
+.btns{
+    display: flex;
+    flex-wrap: wrap;  
+    flex-direction: column;  
+    align-items: center;
+    
+}
+
+.yellow{
+    background-color: rgb(242, 255, 127);
+
+}
+.purple{
+    background-color: rgb(138, 127, 255);
+}
+.orange{
+    background-color: rgb(255, 176, 19);
+}
+.red{
+    background-color: rgb(255, 127, 127);
+}
+.flash{
+    background-color: white;
+}
+.userpress{
+    background-color: rgb(67, 241, 76);
+}
+.over{
+    background-color: red;
+}
